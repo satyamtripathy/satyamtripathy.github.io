@@ -1,0 +1,35 @@
+baseurl="https://example.org/"
+languageCode="en-us"
+title="Satyam"
+theme="hugo-xmin-master"
+googleAnalytics=""
+disqusShortname=""
+ignoreFiles=["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents="↩"
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 3
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 4
+
+#[[menu.main]]
+ # name = "Subscribe"
+  #url = "/index.xml"
+  #weight = 5
+[params]
+description= "A website built through Hugo and blogdown."
+footer= "&copy; [Satyam Tripathy](/) 2017 -- {Year} | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
